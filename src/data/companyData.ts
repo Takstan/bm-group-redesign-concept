@@ -1,3 +1,5 @@
+import { walkerImg, aboutImg, restorationImg, materialsImg } from '../assets/images';
+
 export interface DivisionInfo {
   id: string;
   number: string;
@@ -62,7 +64,7 @@ export const DIVISIONS: DivisionInfo[] = [
     name: 'Real Estate Development',
     tagline: 'Master-planned residential & commercial communities',
     description: 'Transforming land into enduring architectural landmarks. We oversee site acquisition, zoning, master planning, architecture, construction management, and asset stabilization.',
-    image: '/src/assets/images/walker_house_tower_1793341399738.jpg',
+    image: walkerImg,
     keyCapabilities: [
       'High-rise mixed-use residential towers',
       'Master-planned urban community developments',
@@ -78,7 +80,7 @@ export const DIVISIONS: DivisionInfo[] = [
     name: 'Construction Support Services',
     tagline: 'Heavy civil, precision cutting & engineering support',
     description: 'Providing mission-critical field support to major infrastructure and commercial developments. Specialists in precision concrete sawing, wire cutting, ground scanning, and civil excavation.',
-    image: '/src/assets/images/about_construction_craft_1793341399311.jpg',
+    image: aboutImg,
     keyCapabilities: [
       'Deep diamond wire sawing & wall cutting',
       'Ground penetrating radar (GPR) & concrete scanning',
@@ -94,7 +96,7 @@ export const DIVISIONS: DivisionInfo[] = [
     name: 'Structural Restoration & Waterproofing',
     tagline: 'Preserving structural integrity and building envelopes',
     description: 'Industry-leading specialists in structural concrete rehabilitation, high-pressure chemical grouting, building envelope waterproofing, and post-tensioned tendon restoration.',
-    image: '/src/assets/images/structural_restoration_1793341399812.jpg',
+    image: restorationImg,
     keyCapabilities: [
       'High-pressure chemical grout & polyurethane injection',
       'Building envelope membrane rehabilitation & sealants',
@@ -110,7 +112,7 @@ export const DIVISIONS: DivisionInfo[] = [
     name: 'Materials Supply',
     tagline: 'Premium architectural precast, aggregates & ready-mix',
     description: 'Direct manufacturer and supplier of architectural precast concrete elements, custom masonry, certified construction aggregates, and specialized ready-mix solutions across western North America.',
-    image: '/src/assets/images/materials_sanderson_concrete_1793341400131.jpg',
+    image: materialsImg,
     keyCapabilities: [
       'Architectural precast concrete panels & custom streetscapes',
       'Certified high-durability washed aggregates & gravels',
@@ -166,7 +168,7 @@ export const FEATURED_PROJECTS: ProjectInfo[] = [
     scope: '29-storey mixed-use residential tower featuring 264 contemporary residences, 17,000 sq ft of community amenities, and vibrant street-level retail.',
     outcome: 'Completed on schedule with 100% pre-sales absorption, establishing a new architectural benchmark for urban density and transit-oriented living in North Delta.',
     metric: '29 Storeys · 264 Residences',
-    image: '/src/assets/images/walker_house_tower_1793341399738.jpg',
+    image: walkerImg,
     completionYear: '2025',
     highlights: [
       'Comprehensive master planning and municipal rezoning',
@@ -185,7 +187,7 @@ export const FEATURED_PROJECTS: ProjectInfo[] = [
     scope: 'Sub-surface structural scanning, utility mapping, and continuous precision diamond wire sawing through 36-inch reinforced concrete abutments during live transit operations.',
     outcome: 'Zero disruptions to commuter transit corridors, executed within precision tolerances of ±2mm under strict seismic standards.',
     metric: '4,200 m² Precision Wire Sawing',
-    image: '/src/assets/images/about_construction_craft_1793341399311.jpg',
+    image: aboutImg,
     completionYear: '2024',
     highlights: [
       'Non-destructive GPR mapping of high-voltage conduits',
@@ -204,7 +206,7 @@ export const FEATURED_PROJECTS: ProjectInfo[] = [
     scope: 'Complete structural rejuvenation of a 4-level underground commercial parkade, including hydrodemolition of delaminated concrete, polyurethane water-stop injection, and traffic coating application.',
     outcome: 'Extended structural lifecycle by 35 years while keeping 60% of parking operational during active renovation phases.',
     metric: '185,000 sq ft Waterproofed Deck',
-    image: '/src/assets/images/structural_restoration_1793341399812.jpg',
+    image: restorationImg,
     completionYear: '2025',
     highlights: [
       'Dual-component chemical grout pressure injection',
@@ -223,7 +225,7 @@ export const FEATURED_PROJECTS: ProjectInfo[] = [
     scope: 'Custom design, mold fabrication, and production of over 1,200 modular architectural precast concrete panels, security bollards, and custom civic seating.',
     outcome: 'Delivered proprietary high-durability 60 MPa mix with acid-etched architectural finishes that resist freeze-thaw degradation and graffiti.',
     metric: '1,200+ Architectural Precast Units',
-    image: '/src/assets/images/materials_sanderson_concrete_1793341400131.jpg',
+    image: materialsImg,
     completionYear: '2024',
     highlights: [
       'Custom wooden and steel CNC pattern fabrication',

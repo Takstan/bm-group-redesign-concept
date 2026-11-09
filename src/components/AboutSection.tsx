@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, HeartHandshake, Landmark } from 'lucide-react';
+import { aboutImg, restorationImg } from '../assets/images';
 
 interface AboutSectionProps {
   onDiscoverStory: () => void;
@@ -16,7 +17,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onDiscoverStory }) =
               {/* Main Image */}
               <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl aspect-[4/3] bg-[#1a1d22]">
                 <img
-                  src="/src/assets/images/about_construction_craft_1793341399311.jpg"
+                  src={aboutImg}
                   alt="BM Group engineers on site reviewing technical construction blueprints"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
@@ -32,7 +33,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onDiscoverStory }) =
               {/* Smaller Overlapping Image */}
               <div className="absolute -bottom-8 -right-4 sm:-right-8 w-3/5 sm:w-1/2 aspect-[4/3] rounded-xl overflow-hidden border-2 border-[#c8a261]/80 shadow-2xl bg-[#13161b] hidden sm:block">
                 <img
-                  src="/src/assets/images/structural_restoration_1793341399812.jpg"
+                  src={restorationImg}
                   alt="Precision structural restoration and waterproofing in progress"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

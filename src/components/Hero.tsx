@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ChevronDown, Building, Compass } from 'lucide-react';
+import { heroImg } from '../assets/images';
 
 interface HeroProps {
   onDiscussProject: () => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onDiscussProject, onExploreCompanies
       {/* Background cinematic imagery with subtle zoom animation */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_cinematic_construction_1793341397976.jpg"
+          src={heroImg}
           alt="BM Group commercial construction landmark at twilight"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover scale-105 animate-[pulse_14s_ease-in-out_infinite_alternate]"
